@@ -1,0 +1,14 @@
+/home/nguyen.tan.thang/DotNet_Tutorial/bin/Debug/net8.0/DotNet_Tutorial
+/home/nguyen.tan.thang/DotNet_Tutorial/bin/Debug/net8.0/DotNet_Tutorial.deps.json
+/home/nguyen.tan.thang/DotNet_Tutorial/bin/Debug/net8.0/DotNet_Tutorial.runtimeconfig.json
+/home/nguyen.tan.thang/DotNet_Tutorial/bin/Debug/net8.0/DotNet_Tutorial.dll
+/home/nguyen.tan.thang/DotNet_Tutorial/bin/Debug/net8.0/DotNet_Tutorial.pdb
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/DotNet_Tutorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/DotNet_Tutorial.AssemblyInfoInputs.cache
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/DotNet_Tutorial.AssemblyInfo.cs
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/DotNet_Tutorial.csproj.CoreCompileInputs.cache
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/DotNet_Tutorial.dll
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/refint/DotNet_Tutorial.dll
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/DotNet_Tutorial.pdb
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/DotNet_Tutorial.genruntimeconfig.cache
+/home/nguyen.tan.thang/DotNet_Tutorial/obj/Debug/net8.0/ref/DotNet_Tutorial.dll
