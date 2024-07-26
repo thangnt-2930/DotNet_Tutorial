@@ -1,0 +1,128 @@
+2024-07-22 14:37:32.567 +07:00 [INF] Starting up the application
+2024-07-22 14:37:32.624 +07:00 [INF] User profile is available. Using '/home/nguyen.tan.thang/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-07-22 14:37:32.681 +07:00 [INF] Now listening on: http://localhost:5051
+2024-07-22 14:37:32.683 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-22 14:37:32.684 +07:00 [INF] Hosting environment: Development
+2024-07-22 14:37:32.684 +07:00 [INF] Content root path: /home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement
+2024-07-22 14:37:32.876 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/ - null null
+2024-07-22 14:37:32.890 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-07-22 14:37:32.910 +07:00 [INF] Executing endpoint 'StudentManagement.Controllers.HomeController.Index (StudentManagement)'
+2024-07-22 14:37:32.935 +07:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller StudentManagement.Controllers.HomeController (StudentManagement).
+2024-07-22 14:37:32.943 +07:00 [INF] Executing ViewResult, running view Index.
+2024-07-22 14:37:33.020 +07:00 [INF] Executed ViewResult - view Index executed in 76.6954ms.
+2024-07-22 14:37:33.025 +07:00 [INF] Executed action StudentManagement.Controllers.HomeController.Index (StudentManagement) in 87.8684ms
+2024-07-22 14:37:33.026 +07:00 [INF] Executed endpoint 'StudentManagement.Controllers.HomeController.Index (StudentManagement)'
+2024-07-22 14:37:33.030 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/ - 200 null text/html; charset=utf-8 154.3596ms
+2024-07-22 14:37:33.031 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 14:37:33.031 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-07-22 14:37:33.032 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-07-22 14:37:33.031 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - null null
+2024-07-22 14:37:33.032 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/StudentManagement.styles.css?v=UWlSoMJCdw-5nSWZgzC1sj2l1NOmsZgridgJAbaoZqU - null null
+2024-07-22 14:37:33.031 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/lib/jquery/dist/jquery.min.js - null null
+2024-07-22 14:37:33.034 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - 200 13424 application/javascript; charset=utf-8 3.3969ms
+2024-07-22 14:37:33.035 +07:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-07-22 14:37:33.035 +07:00 [INF] The file /StudentManagement.styles.css was not modified
+2024-07-22 14:37:33.035 +07:00 [INF] The file /css/site.css was not modified
+2024-07-22 14:37:33.037 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/StudentManagement.styles.css?v=UWlSoMJCdw-5nSWZgzC1sj2l1NOmsZgridgJAbaoZqU - 304 null text/css 5.0554ms
+2024-07-22 14:37:33.036 +07:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-07-22 14:37:33.038 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 6.5232ms
+2024-07-22 14:37:33.037 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 6.0482ms
+2024-07-22 14:37:33.038 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - 304 null text/css 6.824ms
+2024-07-22 14:37:33.036 +07:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-07-22 14:37:33.041 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/lib/jquery/dist/jquery.min.js - 304 null text/javascript 9.9066ms
+2024-07-22 14:37:33.043 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - null null
+2024-07-22 14:37:33.044 +07:00 [INF] The file /js/site.js was not modified
+2024-07-22 14:37:33.044 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/js/site.js?v=y_Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM - 304 null text/javascript 0.774ms
+2024-07-22 14:37:36.901 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/Students - null null
+2024-07-22 14:37:36.903 +07:00 [INF] Executing endpoint 'Student.Controllers.StudentsController.Index (StudentManagement)'
+2024-07-22 14:37:36.909 +07:00 [INF] Route matched with {action = "Index", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Student.Controllers.StudentsController (StudentManagement).
+2024-07-22 14:37:38.003 +07:00 [INF] Executed DbCommand (169ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Students] AS [s]
+2024-07-22 14:37:38.063 +07:00 [INF] Executing ViewResult, running view Index.
+2024-07-22 14:37:38.083 +07:00 [INF] Executed ViewResult - view Index executed in 21.155ms.
+2024-07-22 14:37:38.084 +07:00 [INF] Executed action Student.Controllers.StudentsController.Index (StudentManagement) in 1174.7908ms
+2024-07-22 14:37:38.085 +07:00 [INF] Executed endpoint 'Student.Controllers.StudentsController.Index (StudentManagement)'
+2024-07-22 14:37:38.094 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/Students - 200 null text/html; charset=utf-8 1192.9972ms
+2024-07-22 14:37:38.107 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 14:37:38.107 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - 200 13424 application/javascript; charset=utf-8 0.5485ms
+2024-07-22 14:37:39.346 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/Students/Create - null null
+2024-07-22 14:37:39.349 +07:00 [INF] Executing endpoint 'Student.Controllers.StudentsController.Create (StudentManagement)'
+2024-07-22 14:37:39.353 +07:00 [INF] Route matched with {action = "Create", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Student.Controllers.StudentsController (StudentManagement).
+2024-07-22 14:37:39.357 +07:00 [INF] Executing ViewResult, running view Create.
+2024-07-22 14:37:39.403 +07:00 [INF] Executed ViewResult - view Create executed in 47.6009ms.
+2024-07-22 14:37:39.403 +07:00 [INF] Executed action Student.Controllers.StudentsController.Create (StudentManagement) in 50.1323ms
+2024-07-22 14:37:39.403 +07:00 [INF] Executed endpoint 'Student.Controllers.StudentsController.Create (StudentManagement)'
+2024-07-22 14:37:39.404 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/Students/Create - 200 null text/html; charset=utf-8 57.2845ms
+2024-07-22 14:37:39.415 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-07-22 14:37:39.415 +07:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2024-07-22 14:37:39.416 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 0.5431ms
+2024-07-22 14:37:39.419 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 14:37:39.420 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - 200 13424 application/javascript; charset=utf-8 0.4171ms
+2024-07-22 14:37:39.421 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-07-22 14:37:39.421 +07:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2024-07-22 14:37:39.422 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 304 null text/javascript 0.9455ms
+2024-07-22 14:37:44.804 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5051/Students/Create - application/x-www-form-urlencoded 195
+2024-07-22 14:37:44.805 +07:00 [INF] Executing endpoint 'Student.Controllers.StudentsController.Create (StudentManagement)'
+2024-07-22 14:37:44.817 +07:00 [INF] Route matched with {action = "Create", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Student.Models.Student) on controller Student.Controllers.StudentsController (StudentManagement).
+2024-07-22 14:37:45.059 +07:00 [INF] Executed DbCommand (89ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Students] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2024-07-22 14:37:45.088 +07:00 [INF] Student created successfully: {"Id":9,"Name":"ThangNT","$type":"Student"}
+2024-07-22 14:37:45.091 +07:00 [INF] Executing RedirectResult, redirecting to /Students.
+2024-07-22 14:37:45.091 +07:00 [INF] Executed action Student.Controllers.StudentsController.Create (StudentManagement) in 273.8152ms
+2024-07-22 14:37:45.091 +07:00 [INF] Executed endpoint 'Student.Controllers.StudentsController.Create (StudentManagement)'
+2024-07-22 14:37:45.091 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5051/Students/Create - 302 0 null 287.3984ms
+2024-07-22 14:37:45.093 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/Students - null null
+2024-07-22 14:37:45.094 +07:00 [INF] Executing endpoint 'Student.Controllers.StudentsController.Index (StudentManagement)'
+2024-07-22 14:37:45.094 +07:00 [INF] Route matched with {action = "Index", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Student.Controllers.StudentsController (StudentManagement).
+2024-07-22 14:37:45.160 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Students] AS [s]
+2024-07-22 14:37:45.161 +07:00 [INF] Executing ViewResult, running view Index.
+2024-07-22 14:37:45.165 +07:00 [INF] Executed ViewResult - view Index executed in 3.5652ms.
+2024-07-22 14:37:45.165 +07:00 [INF] Executed action Student.Controllers.StudentsController.Index (StudentManagement) in 71.385ms
+2024-07-22 14:37:45.165 +07:00 [INF] Executed endpoint 'Student.Controllers.StudentsController.Index (StudentManagement)'
+2024-07-22 14:37:45.166 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/Students - 200 null text/html; charset=utf-8 72.4445ms
+2024-07-22 14:37:45.198 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 14:37:45.199 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - 200 13424 application/javascript; charset=utf-8 0.262ms
+2024-07-22 14:39:31.936 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/Students/Create - null null
+2024-07-22 14:39:31.937 +07:00 [INF] Executing endpoint 'Student.Controllers.StudentsController.Create (StudentManagement)'
+2024-07-22 14:39:31.937 +07:00 [INF] Route matched with {action = "Create", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller Student.Controllers.StudentsController (StudentManagement).
+2024-07-22 14:39:31.939 +07:00 [INF] Executing ViewResult, running view Create.
+2024-07-22 14:39:31.952 +07:00 [INF] Executed ViewResult - view Create executed in 13.6523ms.
+2024-07-22 14:39:31.953 +07:00 [INF] Executed action Student.Controllers.StudentsController.Create (StudentManagement) in 15.549ms
+2024-07-22 14:39:31.953 +07:00 [INF] Executed endpoint 'Student.Controllers.StudentsController.Create (StudentManagement)'
+2024-07-22 14:39:31.954 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/Students/Create - 200 null text/html; charset=utf-8 17.3961ms
+2024-07-22 14:39:31.976 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 14:39:31.977 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - 200 13424 application/javascript; charset=utf-8 0.7286ms
+2024-07-22 14:39:35.428 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5051/Students/Create - application/x-www-form-urlencoded 206
+2024-07-22 14:39:35.429 +07:00 [INF] Executing endpoint 'Student.Controllers.StudentsController.Create (StudentManagement)'
+2024-07-22 14:39:35.429 +07:00 [INF] Route matched with {action = "Create", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Student.Models.Student) on controller Student.Controllers.StudentsController (StudentManagement).
+2024-07-22 14:39:35.575 +07:00 [INF] Executed DbCommand (141ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Students] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2024-07-22 14:39:35.577 +07:00 [INF] Student created successfully: {"Id":10,"Name":"Thang Dep Trai 123","$type":"Student"}
+2024-07-22 14:39:35.577 +07:00 [INF] Executing RedirectResult, redirecting to /Students.
+2024-07-22 14:39:35.577 +07:00 [INF] Executed action Student.Controllers.StudentsController.Create (StudentManagement) in 148.6744ms
+2024-07-22 14:39:35.578 +07:00 [INF] Executed endpoint 'Student.Controllers.StudentsController.Create (StudentManagement)'
+2024-07-22 14:39:35.578 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5051/Students/Create - 302 0 null 149.3507ms
+2024-07-22 14:39:35.580 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/Students - null null
+2024-07-22 14:39:35.580 +07:00 [INF] Executing endpoint 'Student.Controllers.StudentsController.Index (StudentManagement)'
+2024-07-22 14:39:35.580 +07:00 [INF] Route matched with {action = "Index", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Student.Controllers.StudentsController (StudentManagement).
+2024-07-22 14:39:35.582 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name]
+FROM [Students] AS [s]
+2024-07-22 14:39:35.583 +07:00 [INF] Executing ViewResult, running view Index.
+2024-07-22 14:39:35.585 +07:00 [INF] Executed ViewResult - view Index executed in 2.7706ms.
+2024-07-22 14:39:35.586 +07:00 [INF] Executed action Student.Controllers.StudentsController.Index (StudentManagement) in 5.5933ms
+2024-07-22 14:39:35.586 +07:00 [INF] Executed endpoint 'Student.Controllers.StudentsController.Index (StudentManagement)'
+2024-07-22 14:39:35.586 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/Students - 200 null text/html; charset=utf-8 6.6137ms
+2024-07-22 14:39:35.599 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-22 14:39:35.599 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5051/_framework/aspnetcore-browser-refresh.js - 200 13424 application/javascript; charset=utf-8 0.2578ms
