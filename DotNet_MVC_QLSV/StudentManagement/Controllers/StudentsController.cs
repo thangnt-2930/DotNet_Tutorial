@@ -32,16 +32,12 @@ public class StudentsController : Controller
     // POST: Students/Create
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("Id,Name")] Student.Models.Student student)
+    public async Task<IActionResult> Create([Bind("Id,Name")] Models.Student student)
     {
-        if (ModelState.IsValid)
-        {
-            _context.Add(student);
-            await _context.SaveChangesAsync();
-            _logger.LogInformation("Student created successfully: {@Student}", student);
-            return RedirectToAction(nameof(Index));
-        }
-        return View(student);
+        _context.Add(student);
+        await _context.SaveChangesAsync();
+        _logger.LogInformation("Student created successfully: {@Student}", student);
+        return RedirectToAction(nameof(Index));
     }
 
     // GET: Students/Edit/5
@@ -55,34 +51,30 @@ public class StudentsController : Controller
     // POST: Students/Edit/5
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Student.Models.Student student)
+    public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Models.Student student)
     {
         if (id != student.Id)
         {
             return NotFound();
         }
 
-        if (ModelState.IsValid)
+        try
         {
-            try
-            {
-                _context.Update(student);
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!StudentExists(student.Id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            _context.Update(student);
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        return View(student);
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!StudentExists(student.Id))
+            {
+                return NotFound();
+            }
+            else
+            {
+                return View(student);
+            }
+        }
     }
 
     // GET: Students/Delete/5
@@ -104,6 +96,17 @@ public class StudentsController : Controller
         _context.Students.Remove(student);
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> CourseOfStudent(int studentId)
+    {
+        var courses = await _context.Enrollments
+                    .Where(e => e.StudentId == studentId)
+                    .Select(e => e.Course)
+                    .ToListAsync();
+        
+        return View(courses);
     }
 
     private bool StudentExists(int id)
