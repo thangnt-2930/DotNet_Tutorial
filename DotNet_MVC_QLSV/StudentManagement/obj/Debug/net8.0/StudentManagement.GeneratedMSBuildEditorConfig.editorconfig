@@ -18,6 +18,42 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Courses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Courses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Courses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Courses/StudentInCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlcy9TdHVkZW50SW5Db3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Courses/_Course_info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlcy9fQ291cnNlX2luZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Enrollments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5yb2xsbWVudHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Enrollments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5yb2xsbWVudHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Enrollments/_Enrollment_info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW5yb2xsbWVudHMvX0Vucm9sbG1lbnRfaW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Students/CourseOfStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudHMvQ291cnNlT2ZTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/nguyen.tan.thang/DotNet_Tutorial/DotNet_MVC_QLSV/StudentManagement/Views/Students/Create.cshtml]
