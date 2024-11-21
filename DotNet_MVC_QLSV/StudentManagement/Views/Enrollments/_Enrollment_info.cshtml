@@ -1,0 +1,12 @@
+@model Enrollments.Models.Enrollment
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="form-group">
+    <label asp-for="StudentId" class="control-label"></label>
+    <input asp-for="StudentId" class="form-control" />
+    <span asp-validation-for="StudentId" class="text-danger"></span>
+    <br>
+    <label asp-for="CourseId" class="control-label"></label>
+    <input asp-for="CourseId" class="form-control" />
+    <span asp-validation-for="CourseId" class="text-danger"></span>
+</div>
